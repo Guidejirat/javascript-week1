@@ -6,5 +6,7 @@ let birthYear = prompt("กรุณาใส่ปีเกิด (ค.ศ.): "
 let currentYear = new Date().getFullYear();
 let age = currentYear - Number(birthYear);
 
-console.log("สวัสดี " + name);
+console.log("สวัสดีคุณ " + name + " 👋");
 console.log("ปีนี้คุณอายุประมาณ " + age + " ปี");
+
+console.log("ยินดีต้อนรับเข้าสู่โปรแกรม");
